@@ -31,8 +31,10 @@ from ColabTurtle.Turtle import *
 initializeTurtle(initial_speed=4, initial_window_size=(800,500))
 ```
 
-##📜 Code Walkthrough
-##🔹 Version 1 – Triangle-based Heart
+## 📜 Code Walkthrough
+
+🔹 Version 1 – Triangle-based Heart
+
 ```python
 color('red')         # Set pen color to red
 speed(10)            # Increase drawing speed
@@ -67,7 +69,8 @@ penup()
 goto(200, 250)
 pendown()
 ```
-##🔹 Version 2 – Smooth Arc Heart
+
+🔹 Version 2 – Smooth Arc Heart
 ```python
 initializeTurtle(initial_speed=4, initial_window_size=(800,500))
 
